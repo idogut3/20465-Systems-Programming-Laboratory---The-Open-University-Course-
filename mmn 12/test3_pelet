@@ -1,0 +1,11 @@
+
+Please enter the length of the number of bytes you want to compare: 
+The length of comparison you inserted is : 0 
+Please enter the first index you want to compare from in the string: 
+The first index of comparison you inserted is : 1 
+Please enter the second index you want to compare from in the string: 
+The second index of comparison you inserted is : 8 
+Please enter the string you want to compare from : The string you inserted is : abcdefghijk
+The function returned : 0 
+If the function returned 0 both the memory pointers contain the same bytes in the given length of comparison
+ , otherwise it returned 1 which means the bytes in the length of comparison are not the same 
