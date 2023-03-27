@@ -1,0 +1,13 @@
+
+Please enter a number to rotate
+Please enter the number of times you want to rotate the number:
+The number is: 8, and the number of rotations is: 3 
+The number in an octal representation: 10 
+The number in a hexadecimal representation: 
+8
+The number in a binary representation : 	00000000000000000000000000001000
+The number after the rotation: 1 
+The number after the rotation in an octal number number representation: 1 
+"The number after the rotation in a hexadecimal number representation: 1 
+The number after the rotation in a binary representation: 
+00000000000000000000000000000001
