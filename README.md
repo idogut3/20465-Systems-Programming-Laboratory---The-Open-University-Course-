@@ -93,7 +93,50 @@ One of the indices and/or the value len is not a non-negative whole decimal numb
 One of the memory segments overflows the string boundaries (according to the values of the indices and len).
 The input for the program is from stdin, and can come from the keyboard or from a file (using redirection when running the program).
 
+#### MMN 23 task:
+##### Question 2 (Main program in file permut.c)
 
+Definition: A permutation of a string of characters is a string that is obtained by some shuffling of the order of the characters in the original string.
+
+You must write a program that receives two arguments on the command line: the name of an input file and a string of characters.
+The program should scan the contents of the file and print to standard output all permutations of the string that are found in the file.
+
+The permutations will be printed in the order of their appearance in the file. Each permutation will be printed on a new line. There may be multiple instances of each permutation, and all of them must be printed. Assume that there are no permutations in the file that overlap with each other.
+
+For example, if the command line looks like this:
+
+prog data.in chair
+
+and the contents of the file data.in are:
+
+I am a chair
+
+You are an arich and not a CHAIR
+
+We are haircs and not gariches
+
+Goodbye
+
+the program's output will be:
+
+chair
+
+arich
+
+hairc
+
+arich
+
+The program should print an appropriate error message to the standard error file and stop its work in the following cases: the number of arguments on the command line is not as required; a problem opening the file; the file is empty.
+
+If the program scanned all the contents of the file but did not find any permutations, it should print an appropriate message to the standard output file and end its run.   
+
+Explanation of the terms:
+
+Permutation: A permutation is a rearrangement of a set of objects. In the context of strings, it means rearranging the order of the characters in the string.
+Standard input: The input that the program receives from the user or another program.
+Standard output: The output that the program produces.
+Standard error file: A file where the program sends error message
 
 
 
