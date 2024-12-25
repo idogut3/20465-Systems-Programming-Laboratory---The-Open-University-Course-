@@ -42,13 +42,13 @@ Note: The implementation must not be computer-dependent, i.e., it is not guarant
 
 Example: Given the following variable x:
 
-x = 10101110 11111011
+x = 1010111011111011
 Then my_rotate(x, 3) will give:
 
-x = 01110101 11011111
+x = 0111010111011111
 And my_rotate(x, -3) will give:
 
-x = 01110111 11011101
+x = 0111011111011101
 The input for the program is from stdin, and can come from the keyboard or from a file (using redirection when running the program). It is recommended to prepare several input files and use them repeatedly for debugging the program.
 The input for the program is from stdin, and can come from the keyboard or from a file (using redirection when running the program).
 
@@ -56,11 +56,11 @@ The input for the program is from stdin, and can come from the keyboard or from 
 #### MMN 12 task:
 ##### Question 1 (Main Program in my_bcmp.c)
 
-You must implement the following function:
+###### You must implement the following function:
+
 ```c
 int my_bcmp(const void *b1, const void *b2, int len);
 ```
-
 b1 - Pointer to the first memory segment.
 b2 - Pointer to the second memory segment.
 len - The number of bytes to compare.
