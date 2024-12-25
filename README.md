@@ -57,8 +57,10 @@ The input for the program is from stdin, and can come from the keyboard or from 
 ##### Question 1 (Main Program in my_bcmp.c)
 
 You must implement the following function:
-
+```c
 int my_bcmp(const void *b1, const void *b2, int len);
+```
+
 b1 - Pointer to the first memory segment.
 b2 - Pointer to the second memory segment.
 len - The number of bytes to compare.
