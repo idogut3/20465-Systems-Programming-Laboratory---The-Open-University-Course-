@@ -103,7 +103,7 @@ The program should scan the contents of the file and print to standard output al
 
 The permutations will be printed in the order of their appearance in the file. Each permutation will be printed on a new line. There may be multiple instances of each permutation, and all of them must be printed. Assume that there are no permutations in the file that overlap with each other.
 
-For example, if the command line looks like this:
+###### For example, if the command line looks like this:
 
 prog data.in chair
 
@@ -117,7 +117,7 @@ We are haircs and not gariches
 
 Goodbye
 
-the program's output will be:
+###### the program's output will be:
 
 chair
 
