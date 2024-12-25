@@ -7,9 +7,9 @@ The final project was to build an assembler to an assembly-like language. A prog
 ![](https://github.com/idogut3/20465-Systems-Programming-Laboratory-The-Open-University-Course/blob/main/images/asembler_picture1.png)
 
 #### MMN 11 task:
-###### Question 1 (Main Program in abc.c)
+##### Question 1 (Main Program in abc.c)
 
-We will define a shortened string in the following way:
+###### We will define a shortened string in the following way:
 
 Given a string of characters, we will search for ascending sequences of characters from the English alphabet, whose length is at least 3. For example, in the following string there are three such sequences, emphasized with lines: dabcefLMNOPQrstuv567zyx
 Each sequence will be shortened to three characters: the first letter in the sequence, a hyphen, and the last letter in the sequence. For the example above, we will get the shortened string: da-cefL-OpQr-v567zyx
@@ -96,7 +96,7 @@ The input for the program is from stdin, and can come from the keyboard or from 
 #### MMN 23 task:
 ##### Question 2 (Main program in file permut.c)
 
-Definition: A permutation of a string of characters is a string that is obtained by some shuffling of the order of the characters in the original string.
+###### Definition: A permutation of a string of characters is a string that is obtained by some shuffling of the order of the characters in the original string.
 
 You must write a program that receives two arguments on the command line: the name of an input file and a string of characters.
 The program should scan the contents of the file and print to standard output all permutations of the string that are found in the file.
